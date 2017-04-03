@@ -25,7 +25,7 @@ function draw() {
     for (var i = 0; i < xPositions.length; i++) {
          noStroke();
          fill(colors[i]);
-         ellipse(xPositions[i], yPositions[i], 10, 10);
+         ellipse(xPositions[i], yPositions[i], random(10,50), random(10,50));
          yPositions[i] += 5;
         
         if(yPositions[i] > window.outerHeight) {
