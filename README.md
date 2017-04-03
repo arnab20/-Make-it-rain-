@@ -1,2 +1,2 @@
 # -Make-it-rain-
-One of favorites projects of Khan Academy
+One of my favorites projects of Khan Academy
