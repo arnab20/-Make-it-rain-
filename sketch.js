@@ -3,7 +3,7 @@ var yPositions = [];
 var colors = [];
 
 function setup() {
-    createCanvas(1920, 974);
+    createCanvas(displayWidth, displayHeight);
     
     for(var i = 0; i < 20 ; i++) {
         xPositions.push(random(0,window.outerWidth));
