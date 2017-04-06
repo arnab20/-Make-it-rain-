@@ -3,7 +3,7 @@ var yPositions = [];
 var colors = [];
 
 function setup() {
-    createCanvas(displayWidth, displayHeight);
+    createCanvas(windowWidth, windowHeight);
     
     for(var i = 0; i < 20 ; i++) {
         xPositions.push(random(0,window.outerWidth));
@@ -34,4 +34,8 @@ function draw() {
         } 
     }
     
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
